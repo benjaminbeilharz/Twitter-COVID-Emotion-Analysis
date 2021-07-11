@@ -1,0 +1,22 @@
+{
+  "streaming_config": {
+    "languages": ["en"],
+    "track": ["trump"],
+    "is_async": true,
+    "encoding": "utf8"
+  },
+  "filter_config": {
+    "text": true,
+    "user": {
+      "location": true
+    },
+    "entities": {
+      "hashtags": {
+        "text": true
+      }
+    },
+    "favorite_count": 0,
+    "retweet_count": 0,
+    "reply_count" : 0
+  }
+}

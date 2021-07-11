@@ -1,0 +1,22 @@
+{
+  "streaming_config": {
+    "languages": ["en"],
+    "track": ["corona"],
+    "is_async": true,
+    "encoding": "utf8"
+  },
+  "filter_config": {
+    "text": true,
+    "user": {
+      "location": true
+    },
+    "place": true,
+    "entities": {
+      "hashtags": {
+        "text": true
+      }
+    },
+    "favourites_count": true,
+    "retweet_count": true
+  }
+}
